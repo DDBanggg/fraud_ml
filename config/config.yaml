@@ -1,0 +1,12 @@
+project:
+  name: fraud-detection-ml-base
+  seed: 42
+
+data:
+  raw_path: data/raw
+  processed_path: data/processed
+  test_size: 0.2
+
+model:
+  target_col: is_fraud
+  eval_metric: pr_auc

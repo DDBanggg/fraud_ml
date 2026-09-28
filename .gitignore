@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated figures
+# Keep the directory but ignore generated files
+reports/figures/*
+!reports/figures/.gitkeep
